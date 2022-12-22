@@ -7,7 +7,7 @@ current_dir = os.getcwd()
 
 # birthdayfile = r'C:\Users\h.coleau\Pictures\birth2\bdayfile.txt'
 birthdayfile = current_dir+'\data.txt'
- 
+   
 def alerteAnniv():
     filename = open(birthdayfile, "r")
     today = time.strftime('%d%m')
