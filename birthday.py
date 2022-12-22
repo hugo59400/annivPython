@@ -28,8 +28,8 @@ def alerteAnniv():
                     timeout=8
                 )
                 
-                if bday == True :
-                    pywhatkit.sendwhatmsg(unAnniversaire[3], "Bon Anniversaire !",0,0) 
+                # if bday == True :
+                #     pywhatkit.sendwhatmsg(unAnniversaire[3], "Bon Anniversaire !",0,0) 
                     
 if __name__ == '__main__':
     alerteAnniv()
